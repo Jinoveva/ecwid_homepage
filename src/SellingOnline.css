@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-font: 'Archivo', sans-serif;
+}
+
+h1{
+    font-family: var(--main-font);
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 30px 5px 30px;
+}
+
+p {
+    font-family: var(--main-font) ;
+    text-align: center;
+    margin: 10px 20px 30px 20px;
+}
+.getStartedBtn{
+    font-family: var(--main-font);
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: #06945b;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 70px;
+    cursor: pointer;
+}
+
+.getStartedBtn:hover{
+    background-color: #68e5a2;
+}
+
+.noCredit{
+    font-family: var(--main-font);
+    color: #939393;
+    font-size: 14px;
+}
