@@ -1,0 +1,9 @@
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    /* Aligns navbar and button vertically */
+    justify-content: space-between;
+    /* Navbar on the left, button on the right */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+}

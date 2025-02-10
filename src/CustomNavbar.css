@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    width: 100%;
+}
+
+.brand-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Archivo', sans-serif;
+    line-height: 1;
+}
+
+.brand-name {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+}
+
+.brand-slogan {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    color: #555;
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    /* Adds spacing between the brand and button */
+}
+
+.nav-main {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-secondary {
+    display: flex;
+    gap: 30px;
+}
+
+button {
+    font-family: "Archivo", serif;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Change nav links color to black */
+.nav-link {
+    color: black !important;
+}
+
+/* Change brand text color to black */
+.brand-name,
+.brand-slogan {
+    color: black;
+}
