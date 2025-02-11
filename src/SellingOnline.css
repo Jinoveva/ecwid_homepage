@@ -39,3 +39,38 @@ p {
     color: #939393;
     font-size: 14px;
 }
+
+.lottie-animation {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+
+.awards-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.award {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.award p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 2px 0;
+}
+
+.award box-icon {
+    width: 20px;
+    height: 20px;
+    color: #333;
+}
