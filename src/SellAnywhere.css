@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-font: 'Archivo', sans-serif;
+}
+
+.learnMoreBtn {
+        font-family: var(--main-font);
+        margin: 20px;
+        color: white;
+        background-color: #f1b280;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 10px 70px;
+        cursor: pointer;
+        }
+
+.learnMoreBtn:hover {
+    background-color: #f7d29f;
+}
+
+.container {
+    padding: 0 15px;
+    margin-left: 100px;
+}
+
+.row {
+    font-family: var(--main-font);
+    margin: 0 auto;
+    width: 100%;
+}
+
+.review {
+    font-family: var(--main-font);
+    background-color: #f1b280;
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 85%;
+    /* Adjust width to fit your design */
+    margin: 20px auto;
+    /* Centers the review div */
+    padding: 20px;
+}
+
+.reviewerName {
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+}
