@@ -8,7 +8,7 @@ function SellingOnline() {
     return (
         <div className="selling-container">
             <h1 className='firstH1'>Start selling online for free</h1>
-            <p>
+            <p className="trialOffer">
                 We're putting free trials on trial. With Ecwid, you get free forever. Set up
                 <br />
                 your free account once, and keep it as long as you like. Seriously!
