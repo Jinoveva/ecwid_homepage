@@ -22,7 +22,7 @@ function SellingOnline() {
                 animationData={animationData} 
                 loop={true} 
                 autoplay={true} 
-                className="lottie-animation"
+                className="sellingOnlineLottie"
             />
 
             <div className="awards-container">
