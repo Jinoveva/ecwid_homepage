@@ -14,7 +14,7 @@ function SellingOnline() {
                 your free account once, and keep it as long as you like. Seriously!
             </p>
 
-            <button className="getStartedBtn">Get started for free</button>
+            <button className="getStartedBtn">Get started for free &#8594;</button>
             <p className="noCredit">No credit card required</p>
 
               {/* Lottie Animation */}

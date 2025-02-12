@@ -4,6 +4,7 @@ import './index.css';
 import Head from './Head';
 import SellingOnline from './SellingOnline';
 import SellAnywhere from './SellAnywhere';
+import GrowFaster from './GrowFaster';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,5 +12,6 @@ root.render(
     <Head />
     <SellingOnline />
     <SellAnywhere />
+    <GrowFaster />
   </React.StrictMode>
 );

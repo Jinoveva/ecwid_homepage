@@ -22,7 +22,7 @@ function SellAnywhere() {
                             <p>social media, market places like Amazon, and live in-person. Get started</p>
                             <p>with one, or try them all.</p>
                         </div>
-                        <button className="learnMoreBtn">Learn More</button>
+                        <button className="learnMoreBtn">Learn More &#8594;</button>
                     </div>
                     <div className="col-12 col-md-6">
                         {/* This column can be empty or used for another element */}
@@ -69,7 +69,7 @@ function SellAnywhere() {
     <div className="review-footer">
         <p className="reviewerName">Michelle Jackson</p>
         <div className="stars">
-            <p><box-icon type="solid" name="star" class="reviewIcon"></box-icon>Trustpilot</p>
+            <p><box-icon type="solid" name="star" className="reviewIcon"></box-icon>Trustpilot</p>
             <span class="star" data-value="1">&#9733;</span>
             <span class="star" data-value="2">&#9733;</span>
             <span class="star" data-value="3">&#9733;</span>

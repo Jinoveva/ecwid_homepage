@@ -24,7 +24,7 @@ body {
 }
 
 .learnMoreBtn {
-    margin: 20px;
+    margin: 20px 0;
     color: white;
     background-color: var(--primary-color);
     border: 2px solid var(--border-color);
@@ -54,13 +54,13 @@ body {
 /* Lottie Animation */
 .sellAnywhereLottie {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     position: relative;
     margin-top: -200px;
     z-index: 2;
     /* Ensures it appears above the review section */
-    transform: translateX(250px);
-    /* Moves Lottie slightly to the right */
+transform: translateX(-300px);
+    /* Moves Lottie slightly to the left */
 }
 
 /* Lottie Animation Size */
