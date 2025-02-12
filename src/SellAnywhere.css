@@ -59,7 +59,7 @@ body {
     margin-top: -200px;
     z-index: 2;
     /* Ensures it appears above the review section */
-transform: translateX(-300px);
+    transform: translateX(-300px);
     /* Moves Lottie slightly to the left */
 }
 
@@ -78,7 +78,7 @@ transform: translateX(-300px);
     border: 2px solid var(--border-color);
     border-radius: 40px;
     max-width: 1100px;
-    margin: -20px auto 40px;
+    margin: -50px auto 40px;
     /* Pulls it up closer to the lottie */
     padding: 30px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
