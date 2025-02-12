@@ -2,31 +2,20 @@
 
 :root {
     --main-font: 'Archivo', sans-serif;
-    --primary-color: #f1b280;
+    --primary-color3: #395be0;
     --border-color: black;
 }
 
-body {
-    font-family: var(--main-font);
-}
-
-/* Container Alignment */
-.container {
-    padding: 0 15px;
-    margin-left: 100px;
-}
-
-/* Heading Style */
-.secondH1 {
+.fourthH1 {
     font-size: 64px;
     font-weight: 700;
     margin-bottom: 5px;
 }
 
-.learnMoreBtn {
+.learnMoreBtn3 {
     margin: 20px 0 80px 0;
     color: white;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color3);
     border: 2px solid var(--border-color);
     border-radius: 20px;
     padding: 10px 70px;
@@ -34,29 +23,17 @@ body {
     transition: background-color 0.3s ease-in-out;
 }
 
-.learnMoreBtn:hover {
-    background-color: #f7d29f;
+.learnMoreBtn3:hover{
+    background-color: #6a82f1;
 }
 
-/* Row Styling */
-.row {
-    margin: 0 auto;
-    width: 100%;
-}
-
-.secondRow{
-
-}
-
-/* Social Media Section */
-.facebook,
-.instagram {
+.payments,
+.shipping {
     font-size: 20px;
     font-weight: 700;
 }
 
-/* Lottie Animation */
-.sellAnywhereLottie {
+.manageSimplyLottie {
     display: flex;
     justify-content: right;
     position: relative;
@@ -73,12 +50,12 @@ body {
     height: auto;
     position: relative;
     bottom: -20px;
-    /* Slightly lowers it onto the HR line */
 }
 
 /* Review Section */
-.review {
-    background-color: var(--primary-color);
+.review3 {
+    color: white;
+    background-color: var(--primary-color3);
     border: 2px solid var(--border-color);
     border-radius: 40px;
     max-width: 1100px;

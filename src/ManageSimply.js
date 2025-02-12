@@ -1,0 +1,88 @@
+import React from "react";
+import Lottie from "lottie-react";
+import animationData from "./ManageSimply.json";
+import 'boxicons';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './ManageSimply.css';
+
+function ManageSimply() {
+    return(
+        <div>
+
+
+            {/* Container for consistent alignment */}
+            <div className="container">
+
+                {/* First Row */}
+                <div className="row firstRow">
+                    <div className="col-12 col-md-6">
+                        <div className="storeSetupInfo">
+                            <h1 className='fourthH1'>Manage simply</h1>
+                            <p>Control everything seamlessly from a single dashboard with centralized</p>
+                            <p>inventory, order management, pricing, and more. Like a leisurely walk in</p>
+                            <p>the park...if that park was also made on money.</p>
+                        </div>
+                        <button className="learnMoreBtn3">Learn More &#8594;</button>
+                    </div>
+                    <div className="col-12 col-md-6">
+                        {/* This column can be empty or used for another element */}
+                    </div>
+                </div>
+
+                {/* Second Row */}
+                <div className="row secondRow">
+                    <div className="col-12 col-md-3">
+                        <h5 className='payments'>Fast and secure payments</h5>
+                        <p>Choose from Stripe and more than</p>
+                        <p>50 other payment options to accept</p>
+                        <p>credit card payments quickly and</p>
+                        <p>securely.</p>
+                    </div>
+                    <div className="col-12 col-md-3">
+                        <h5 className='shipping'>Shipping that works for you</h5>
+                        <p>Choose as many shipping rates and</p>
+                        <p>carriers as you like to provide you and</p>
+                        <p>your customers with the best</p>
+                        <p>experience</p>
+                    </div>
+                    <div className="col-12 col-md-6">
+                        {/* This column can be empty or used for another element */}
+                    </div>
+                </div>
+            </div> {/* End of container */}
+            
+            <div className='manageSimplyLottie'>
+                <Lottie 
+                animationData={animationData} 
+                loop={true} 
+                autoplay={true} 
+                className="lottie-animation"
+                />
+            </div>
+
+
+            {/* Review Section */}
+<div className="review3">
+    <p>Ecwid is awesome. Their smooth, operational and user friendly interface</p>
+    <p>makes managing my store easy. They allow extensive and easy</p>
+    <p>customization of products and variations galore.</p>
+
+    {/* This section aligns stars and reviewer name in one row */}
+    <div className="review-footer">
+        <p className="reviewerName">Benjamin Scott</p>
+        <div className="stars">
+            <p><box-icon type="solid" name="star" className="reviewIcon"></box-icon>Trustpilot</p>
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+        </div>
+    </div>
+</div>
+
+</div>
+    );
+}
+
+export default ManageSimply;

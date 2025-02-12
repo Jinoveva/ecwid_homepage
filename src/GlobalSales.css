@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+.globalSalesLottie {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    margin-top: -200px;
+    z-index: 2;
+    /* Ensures it appears above the review section */
+    transform: translateX(-200px);
+    /* Moves Lottie slightly to the left */
+}
+
+/* Lottie Animation Size */
+.lottie-animation2 {
+    max-width: 300px;
+    height: auto;
+    position: relative;
+    bottom: -180px;
+}
+
+.globalSales {
+    border: 2px solid;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    /* Ensures text and stats are on the same line */
+    align-items: center;
+    /* Vertically aligns both sections */
+    width: 100%;
+    max-width: 1100px;
+    /* Prevents stretching */
+    margin: 100px auto;
+    padding: 60px;
+}
+
+.globalSalesLeft {
+    flex: 1;
+    /* Takes up equal space */
+    text-align: left;
+    max-width: 400px;
+}
+
+.globalSalesRight {
+    flex: 1;
+    /* Takes up equal space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centers numbers and labels */
+    text-align: center;
+}
+
+.statsContainer,
+.labelsContainer {
+    display: flex;
+    justify-content: center;
+    /* Ensures numbers & labels are aligned */
+    gap: 60px;
+    /* Adjusts spacing between items */
+}
+
+.statsItem {
+    font-size: 64px;
+    /* Makes numbers bigger */
+    font-weight: bold;
+}
+
+.labelText {
+    font-size: 18px;
+    color: #666;
+}
+
+h5{
+    font-size: 30px;
+}
