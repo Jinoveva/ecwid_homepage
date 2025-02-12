@@ -1,5 +1,6 @@
 import React from "react";
 import Lottie from "lottie-react";
+import animationData from "./SellAnywhere.json";
 import 'boxicons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './SellAnywhere.css';
@@ -46,18 +47,40 @@ function SellAnywhere() {
                         {/* This column can be empty or used for another element */}
                     </div>
                 </div>
-
             </div> {/* End of container */}
-
-            {/* Review Section */}
-            <div className='review'>
-                <p>This is the perfect place to get your business up and running. You</p>
-                <p>literally don't have to go anywhere else. They have everything you need</p>
-                <p>plus add on widgets, web syncing to social media, and more.</p>
-                <p className='reviewerName'>Michelle Jackson</p>
+            
+            <div className='sellAnywhereLottie'>
+                <Lottie 
+                animationData={animationData} 
+                loop={true} 
+                autoplay={true} 
+                className="lottie-animation"
+                />
             </div>
 
+
+            {/* Review Section */}
+      <div className="review">
+    <p>This is the perfect place to get your business up and running. You</p>
+    <p>literally don't have to go anywhere else. They have everything you need</p>
+    <p>plus add on widgets, web syncing to social media, and more.</p>
+
+    {/* This section aligns stars and reviewer name in one row */}
+    <div className="review-footer">
+        <p className="reviewerName">Michelle Jackson</p>
+        <div className="stars">
+            <p><box-icon type="solid" name="star" class="reviewIcon"></box-icon>Trustpilot</p>
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
         </div>
+    </div>
+</div>
+
+
+</div>
     );
 }
 
