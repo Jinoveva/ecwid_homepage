@@ -11,20 +11,24 @@ body {
 }
 
 /* Container Alignment */
-.container {
+.containerLeft {
     padding: 0 15px;
     margin-left: 100px;
 }
 
 /* Heading Style */
 .secondH1 {
-    font-size: 64px;
-    font-weight: 700;
-    margin-bottom: 5px;
+    font-size: 48px;
+    font-weight: 500;
+    margin: 30px 30px 5px 0;
+}
+
+.pText{
+    font-size: 16.3px;
 }
 
 .learnMoreBtn {
-    margin: 20px 0 80px 0;
+    margin: 20px 0 80px;
     color: white;
     background-color: var(--primary-color);
     border: 2px solid var(--border-color);
@@ -44,15 +48,16 @@ body {
     width: 100%;
 }
 
-.secondRow{
-
-}
-
 /* Social Media Section */
 .facebook,
 .instagram {
-    font-size: 20px;
+    display: flex;
+    align-items: center;
     font-weight: 700;
+}
+
+.socials{
+    font-size: 15px;
 }
 
 /* Lottie Animation */
@@ -89,6 +94,10 @@ body {
     text-align: left;
     position: relative;
     z-index: 1;
+}
+
+.reviewText{
+    font-size: 15px;
 }
 
 /* Reviewer Name */

@@ -10,15 +10,15 @@ body{
     font-family: var(--main-font);
 }
 
-.container {
+.containerRight {
     padding: 0 15px;
     margin-right: 100px;
 }
 
 .thirdH1{
-    font-size: 64px;
-    font-weight: 700;
-    margin-bottom: 5px;
+    font-size: 48px;
+    font-weight: 500;
+    margin: 30px 30px 5px 0;
 }
 
 .learnMoreBtn2{
@@ -42,7 +42,7 @@ body{
 }
 
 .google, .facebook2{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
 }
 

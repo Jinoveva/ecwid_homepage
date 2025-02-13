@@ -22,6 +22,7 @@
 .globalSales {
     border: 2px solid;
     border-radius: 40px;
+    background: url(map2.jpg);
     display: flex;
     justify-content: space-between;
     /* Ensures text and stats are on the same line */
@@ -32,6 +33,13 @@
     /* Prevents stretching */
     margin: 100px auto;
     padding: 60px;
+}
+
+.globalSalesLeft,
+.globalSalesRight {
+    position: relative;
+    z-index: 2;
+    /* Ensures text is above the overlay */
 }
 
 .globalSalesLeft {

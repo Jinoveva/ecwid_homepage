@@ -11,7 +11,7 @@ function SellingOnline() {
             <p className="trialOffer">
                 We're putting free trials on trial. With Ecwid, you get free forever. Set up
                 <br />
-                your free account once, and keep it as long as you like. Seriously!
+                your free account once, and keep it as long as you like. Seriously.
             </p>
 
             <button className="getStartedBtn">Get started for free &#8594;</button>

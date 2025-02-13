@@ -7,6 +7,7 @@ import SellAnywhere from './SellAnywhere';
 import GrowFaster from './GrowFaster';
 import ManageSimply from './ManageSimply';
 import GlobalSales from './GlobalSales';
+import Page from './Page'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,5 +18,6 @@ root.render(
     <GrowFaster/>
     <ManageSimply />
     <GlobalSales />
+    <Page />
   </React.StrictMode>
 );

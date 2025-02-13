@@ -18,7 +18,7 @@ function GlobalSales () {
  <div className="globalSales">
        <div className='globalSalesLeft'>
         <h5>Sell around the world</h5>
-        <p>Take your small business global with
+        <p className='reviewText'>Take your small business global with
         built-in international payment tools and
         translation support for 50 languages -
         and counting.

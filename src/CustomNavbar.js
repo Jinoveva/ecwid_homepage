@@ -40,7 +40,7 @@ function CustomNavbar() {
       </Navbar.Collapse>
 
       {/* Button at the far right */}
-      <button className='navbarBtn'>Get started for free &#8594;</button>
+      <button className='navbarBtn'>Get started for FREE</button>
     </Navbar>
   );
 }

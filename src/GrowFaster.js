@@ -11,7 +11,7 @@ function GrowFaster() {
 
 
             {/* Container for consistent alignment */}
-            <div className="container">
+            <div className="containerRight">
 
                 {/* First Row */}
                 <div className="row firstRow">
@@ -21,10 +21,11 @@ function GrowFaster() {
                                         <div className="col-12 col-md-6">
                         <div className="storeSetupInfo">
                             <h1 className='thirdH1'>Grow faster</h1>
-                            <p>Ecwid gives you the power to easily sell anywhere, to anyone - across</p>
-                            <p>the internet and around the world. Control everything from a single</p>
-                            <p>platform with centralized inventory, order management, and pricing. It</p>
-                            <p>doesn't get any simple than this.</p>
+                            <p className='pText'>Ecwid gives you the power to easily sell anywhere, to anyone - across
+                                the internet and around the world. Control everything from a single
+                                platform with centralized inventory, order management, and pricing. It
+                                doesn't get any simpler than this.
+                            </p>
                         </div>
                         <button className="learnMoreBtn2">Learn More &#8594;</button>
                     </div>
@@ -37,16 +38,12 @@ function GrowFaster() {
                     </div>
                     <div className="col-12 col-md-3">
                         <h5 className='google'>Google advertising</h5>
-                        <p>Get your products ti the top of the</p>
-                        <p>world's most powerful search engine</p>
-                        <p>with Ecwid's automated Google</p>
-                        <p>Shopping ads</p>
+                        <p className='socials'>Get your products to the top of the world's most powerful search engine 
+                            with Ecwid's automated Google Shopping ads</p>
                     </div>
                     <div className="col-12 col-md-3">
                         <h5 className='facebook2'>Facebook advertising</h5>
-                        <p>Create a Facebook campaign in</p>
-                        <p>minutes to reach up to two billion</p>
-                        <p>active facebook users.</p>
+                        <p className='socials'>Create a Facebook campaign in minutes to reach up to two billion active facebook users.</p>
                     </div>
                 </div>
             </div> {/* End of container */}
@@ -63,9 +60,12 @@ function GrowFaster() {
 
             {/* Review Section */}
       <div className="review2">
-    <p>Easy to use, affordable(and a free option if starting off). The platform</p>
-    <p>intergration with other programmes, such as Facebook, Instagram and local</p>
-    <p>payment options to make it an easy setup to manage effectively and easily.</p>
+    <p className='reviewText'>Easy to use, affordable(and a free option if starting off). The platform
+        <br/>
+        intergration with other programmes, such as Facebook, Instagram and local
+        <br/>
+        payment options to make it an easy setup to manage effectively and easily.
+    </p>
 
     {/* This section aligns stars and reviewer name in one row */}
     <div className="review-footer2">

@@ -11,16 +11,17 @@ function SellAnywhere() {
 
 
             {/* Container for consistent alignment */}
-            <div className="container">
+            <div className="containerLeft">
 
                 {/* First Row */}
                 <div className="row firstRow">
                     <div className="col-12 col-md-6">
                         <div className="storeSetupInfo">
                             <h1 className='secondH1'>Sell anywhere</h1>
-                            <p>Set up your Ecwid store once to easily sync and sell across a website,</p>
-                            <p>social media, market places like Amazon, and live in-person. Get started</p>
-                            <p>with one, or try them all.</p>
+                            <p className='pText'>Set up your Ecwid store once to easily sync and sell across a website,
+                                social media, market places like Amazon, and live in-person. Get started
+                                with one, or try them all.
+                            </p>
                         </div>
                         <button className="learnMoreBtn">Learn More &#8594;</button>
                     </div>
@@ -33,15 +34,13 @@ function SellAnywhere() {
                 <div className="row secondRow">
                     <div className="col-12 col-md-3">
                         <h5 className='facebook'><box-icon type='logo' name='facebook'></box-icon></h5>
-                        <p>Set up and manage a Facebook Store</p>
-                        <p>right from your Ecwid dashboard.</p>
-                        <p>You're ready for social selling.</p>
+                        <p className='socials'>Set up and manage a Facebook Store right from your Ecwid dashboard.
+                            You're ready for social selling
+                        </p>
                     </div>
                     <div className="col-12 col-md-3">
                         <h5 className='instagram'><box-icon name='instagram' type='logo' ></box-icon></h5>
-                        <p>Let customers order directly from your</p>
-                        <p>Instagram posts when you're powered</p>
-                        <p>by Ecwid.</p>
+                        <p className='socials'>Let customers order directly from your Instagram posts when you're powered by Ecwid.</p>
                     </div>
                     <div className="col-12 col-md-6">
                         {/* This column can be empty or used for another element */}
@@ -61,9 +60,12 @@ function SellAnywhere() {
 
             {/* Review Section */}
       <div className="review">
-    <p>This is the perfect place to get your business up and running. You</p>
-    <p>literally don't have to go anywhere else. They have everything you need</p>
-    <p>plus add on widgets, web syncing to social media, and more.</p>
+    <p className='reviewText'>This is the perfect place to get your business up and running. You
+    <br/>
+        literally don't have to go anywhere else. They have everything you need
+        <br/>
+        plus add on widgets, web syncing to social media, and more.
+    </p>
 
     {/* This section aligns stars and reviewer name in one row */}
     <div className="review-footer">
