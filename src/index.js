@@ -8,6 +8,7 @@ import GrowFaster from './GrowFaster';
 import ManageSimply from './ManageSimply';
 import GlobalSales from './GlobalSales';
 import Page from './Page'
+import FinalPage from './FinalPage'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,5 +20,6 @@ root.render(
     <ManageSimply />
     <GlobalSales />
     <Page />
+    <FinalPage />
   </React.StrictMode>
 );

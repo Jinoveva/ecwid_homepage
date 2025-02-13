@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https: //fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet');
+
+:root {
+    --main-font: 'Archivo', sans-serif;
+    --primary-color: #f1b280;
+    --border-color: black;
+}
+
+.pageRow{
+    max-width: 1100px;
+}
+
+.box{
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    margin: 10px 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.googleIcon{
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    background-color: #fae053;
+    margin: 5px;
+    padding: 10px;
+}

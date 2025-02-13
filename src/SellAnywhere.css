@@ -90,7 +90,7 @@ body {
     margin: -50px auto 40px;
     /* Pulls it up closer to the lottie */
     padding: 30px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     text-align: left;
     position: relative;
     z-index: 1;
