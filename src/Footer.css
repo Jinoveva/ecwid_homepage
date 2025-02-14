@@ -1,0 +1,103 @@
+.footer{
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.brand-name, .brand-slogan{
+    color: white;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-right: 140px;
+}
+
+/* Footer container */
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    /* Puts search on left & downloads on right */
+    align-items: center;
+    /* Aligns items vertically */
+    padding: 20px 100px;
+    /* Adjust padding to position elements properly */
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    /* Match the background */
+}
+
+/* Search bar styling */
+.search input {
+    padding: 5px;
+    border: 2px solid #939393;
+    border-radius: 5px;
+    width: 250px;
+    background: transparent;
+    color: white;
+}
+
+/* Download section */
+.download {
+    display: flex;
+    gap: 20px;
+    /* Creates spacing between App Store & Google Play buttons */
+}
+
+/* Styles for download buttons */
+.download1,
+.download2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #939393;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+/* Text alignment inside buttons */
+.download-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Small text */
+.logo {
+    font-size: 10px;
+    margin: 0;
+}
+
+/* Large text */
+.logoText {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Fix Google Play icon size */
+.fa-google-play {
+    font-size: 20px;
+}
+
+.bottomLeft{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+
+.bottomRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+}
+
+.copyright{
+    color: #939393;
+
+}

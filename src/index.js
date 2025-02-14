@@ -9,6 +9,7 @@ import ManageSimply from './ManageSimply';
 import GlobalSales from './GlobalSales';
 import Page from './Page'
 import FinalPage from './FinalPage'
+import Footer from './Footer'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,5 +22,6 @@ root.render(
     <GlobalSales />
     <Page />
     <FinalPage />
+    <Footer />
   </React.StrictMode>
 );
