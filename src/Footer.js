@@ -9,17 +9,110 @@ function Footer () {
         <div className='footer'>
 
                  <div className="brand-section">
-                {/* Box-icon for Cart */}
+
+                </div>
+                <div className="footer-container">
+               <div className="footer-columns">
                     <div className='brand-icon'>
                         <box-icon type="solid" name="cart" color='white'></box-icon>
                     </div>
-
-                 {/* Text beside the icon */}
+                  
                     <div className="brand-text">
-                        <p className='brand-name'>Ecwid</p>
-                        <p className='brand-slogan'>by Lightspeed</p>
+                        <p className='brand-name2'>Ecwid</p>
+                        <p className='brand-slogan2'>by Lightspeed</p>
                     </div>
-                </div>
+            <div className="footer-column">
+                <h3>SELL ONLINE</h3>
+                <ul>
+                    <li><a href="#">Sell Everywhere</a></li>
+                    <li><a href="#">Sell on Social</a></li>
+                    <li><a href="#">Sell on Instagram</a></li>
+                    <li><a href="#">Sell on TikTok</a></li>
+                    <li><a href="#">Sell on Facebook</a></li>
+                    <li><a href="#">Sell on Google</a></li>
+                    <li><a href="#">Sell on Amazon</a></li>
+                    <li><a href="#">Sell on WhatsApp</a></li>
+                    <li><a href="#">Sell on Pinterest</a></li>
+                    <li><a href="#">ShopApp</a></li>
+                </ul>
+            </div>
+
+            <div className="footer-column">
+                <h3>PRODUCT</h3>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Watch Demo</a></li>
+                    <li><a href="#">Buy Now Button</a></li>
+                    <li><a href="#">Ecommerce Hosting</a></li>
+                    <li><a href="#">Point-of-Sale</a></li>
+                    <li><a href="#">Digital Products</a></li>
+                    <li><a href="#">Subscriptions</a></li>
+                </ul>
+            </div>
+
+            <div className="footer-column">
+                <h3>FOR YOUR BUSINESS</h3>
+                <ul>
+                    <li><a href="#">Ecommerce Website</a></li>
+                    <li><a href="#">WordPress Ecommerce</a></li>
+                    <li><a href="#">Joomla Ecommerce</a></li>
+                    <li><a href="#">Squarespace Ecommerce</a></li>
+                    <li><a href="#">Weebly Ecommerce</a></li>
+                    <li><a href="#">Wix Ecommerce</a></li>
+                    <li><a href="#">Etsy Ecommerce</a></li>
+                    <li><a href="#">Add Online Store</a></li>
+                </ul>
+            </div>
+
+            <div className="footer-column">
+                <h3>PARTNERS</h3>
+                <ul>
+                    <li><a href="#">Reseller Program</a></li>
+                    <li><a href="#">Affiliate Program</a></li>
+                    <li><a href="#">White Label Solutions</a></li>
+                    <li><a href="#">Referral Program</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">App Market</a></li>
+                    <li><a href="#">API Documentation</a></li>
+                    <li><a href="#">Ecwid Experts</a></li>
+                </ul>
+            </div>
+
+            <div className="footer-column">
+                <h3>COMPANY</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Ecwid Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div className="footer-column">
+                <h3>SUPPORT</h3>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Product Updates</a></li>
+                    <li><a href="#">Status Monitor</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                    <li><a href="#">Free Guides</a></li>
+                    <li><a href="#">Ecwid 101</a></li>
+                    <li><a href="#">Ecwid Academy</a></li>
+                </ul>
+            </div>
+
+            <div className="footer-column">
+                <h3>LATEST BLOG</h3>
+                <ul>
+                    <li><a href="#">Getting Started with TikTok for Small Businesses</a></li>
+                    <li><a href="#">How to Make your Products More Discoverable on Facebook & Instagram</a></li>
+                    <li><a href="#">How to Make Content for Facebook & Instagram to Grow Sales</a></li>
+                </ul>
+            </div>
+            </div>
+    </div>
 <div className='socialIcons'>
     <box-icon name='notepad' type='solid' color='white'></box-icon>
     <box-icon name='microphone' type='solid' color='white'></box-icon>
