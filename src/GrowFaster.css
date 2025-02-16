@@ -6,7 +6,7 @@
     --border-color: black;
 }
 
-body{
+body {
     font-family: var(--main-font);
 }
 
@@ -15,13 +15,14 @@ body{
     margin-right: 100px;
 }
 
-.thirdH1{
+/* Responsive Typography */
+.thirdH1 {
     font-size: 48px;
     font-weight: 500;
     margin: 30px 30px 5px 0;
 }
 
-.learnMoreBtn2{
+.learnMoreBtn2 {
     margin: 20px 0 80px 0;
     color: white;
     background-color: var(--primary-color2);
@@ -32,27 +33,27 @@ body{
     transition: background-color 0.3s ease-in-out;
 }
 
-.learnMoreBtn2:hover{
+.learnMoreBtn2:hover {
     background-color: #a2f2d0;
 }
 
-.row{
+.row {
     margin: 0 auto;
     width: 100%;
 }
 
-.google, .facebook2{
+.google,
+.facebook2 {
     font-size: 18px;
     font-weight: 700;
 }
 
-.growFasterLottie{
+.growFasterLottie {
     display: flex;
     position: relative;
-    margin-top:-200px;
+    margin-top: -200px;
     z-index: 2;
     transform: translateX(50px);
-
 }
 
 .lottie-animation {
@@ -63,7 +64,7 @@ body{
     bottom: -20px;
 }
 
-.review2{
+.review2 {
     background-color: var(--primary-color2);
     border: 2px solid var(--border-color);
     border-radius: 40px;
@@ -82,11 +83,94 @@ body{
     margin-top: 10px;
 }
 
-.review-footer2{
+.review-footer2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-/* stars will not be edited as it is the same layout as prev page */
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .containerRight {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .containerRight {
+        margin-right: 20px;
+    }
+
+    .thirdH1 {
+        font-size: 36px;
+    }
+
+    .learnMoreBtn2 {
+        padding: 10px 50px;
+    }
+
+    .lottie-animation {
+        max-width: 300px;
+        left: 50px;
+    }
+
+    .review2 {
+        margin: -50px auto 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .thirdH1 {
+        font-size: 28px;
+    }
+
+    .learnMoreBtn2 {
+        padding: 10px 30px;
+    }
+
+    .review2 {
+        padding: 20px;
+        max-width: 100%;
+        margin: -50px auto 20px;
+    }
+
+    .lottie-animation {
+        max-width: 250px;
+        left: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .thirdH1 {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+    .learnMoreBtn2 {
+        padding: 10px 20px;
+    }
+
+    .review2 {
+        padding: 15px;
+        margin: -40px auto 10px;
+    }
+
+    .lottie-animation {
+        max-width: 200px;
+        left: 20px;
+    }
+
+    .review-footer2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stars {
+        margin-top: 10px;
+    }
+
+    .reviewerName {
+        margin-top: 10px;
+    }
+}

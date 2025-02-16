@@ -8,7 +8,7 @@ body {
     font-family: var(--main-font);
 }
 
-.firstH1{
+.firstH1 {
     font-size: 50px;
     font-weight: 700;
     text-align: center;
@@ -20,7 +20,8 @@ body {
     text-align: center;
     margin: 10px 20px 30px 20px;
 }
-.getStartedBtn{
+
+.getStartedBtn {
     display: block;
     margin: 20px auto;
     color: white;
@@ -32,11 +33,11 @@ body {
     transition: background-color 0.3s ease-in-out;
 }
 
-.getStartedBtn:hover{
+.getStartedBtn:hover {
     background-color: #68e5a2;
 }
 
-.noCredit{
+.noCredit {
     color: #939393;
     font-size: 14px;
     text-align: center;
@@ -75,4 +76,55 @@ body {
     width: 20px;
     height: 20px;
     color: #333;
+}
+
+/* Responsive Media Queries */
+
+/* For small screens (mobile), stack elements vertically */
+@media (max-width: 576px) {
+    .firstH1 {
+        font-size: 35px;
+    }
+
+    .getStartedBtn {
+        padding: 10px 50px;
+    }
+
+    .sellingOnlineLottie {
+        width: 300px;
+        height: 300px;
+    }
+
+    .awards-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/* For medium screens (tablets), adjust layout for better alignment */
+@media (min-width: 576px) and (max-width: 1024px) {
+    .firstH1 {
+        font-size: 45px;
+    }
+
+    .sellingOnlineLottie {
+        width: 350px;
+        height: 350px;
+    }
+
+    .awards-container {
+        gap: 30px;
+    }
+}
+
+/* For large screens (desktop) */
+@media (min-width: 1024px) {
+    .firstH1 {
+        font-size: 50px;
+    }
+
+    .sellingOnlineLottie {
+        width: 400px;
+        height: 400px;
+    }
 }

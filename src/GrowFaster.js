@@ -8,8 +8,6 @@ import './GrowFaster.css';
 function GrowFaster() {
     return(
         <div>
-
-
             {/* Container for consistent alignment */}
             <div className="containerRight">
 
@@ -18,7 +16,7 @@ function GrowFaster() {
                     <div className="col-12 col-md-6">
                         {/* This column can be empty or used for another element */}
                     </div>
-                                        <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-6">
                         <div className="storeSetupInfo">
                             <h1 className='thirdH1'>Grow faster</h1>
                             <p className='pText'>Ecwid gives you the power to easily sell anywhere, to anyone - across
@@ -57,32 +55,29 @@ function GrowFaster() {
                 />
             </div>
 
-
             {/* Review Section */}
-      <div className="review2">
-    <p className='reviewText'>Easy to use, affordable(and a free option if starting off). The platform
-        <br/>
-        intergration with other programmes, such as Facebook, Instagram and local
-        <br/>
-        payment options to make it an easy setup to manage effectively and easily.
-    </p>
+            <div className="review2">
+                <p className='reviewText'>Easy to use, affordable(and a free option if starting off). The platform
+                    <br/>
+                    intergration with other programmes, such as Facebook, Instagram and local
+                    <br/>
+                    payment options to make it an easy setup to manage effectively and easily.
+                </p>
 
-    {/* This section aligns stars and reviewer name in one row */}
-    <div className="review-footer2">
-        <div className="stars">
-            <p><box-icon type="solid" name="star" className="reviewIcon"></box-icon>Trustpilot</p>
-            <span class="star" data-value="1">&#9733;</span>
-            <span class="star" data-value="2">&#9733;</span>
-            <span class="star" data-value="3">&#9733;</span>
-            <span class="star" data-value="4">&#9733;</span>
-            <span class="star" data-value="5">&#9733;</span>
+                {/* This section aligns stars and reviewer name in one row */}
+                <div className="review-footer2">
+                    <div className="stars">
+                        <p><box-icon type="solid" name="star" className="reviewIcon"></box-icon>Trustpilot</p>
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                    </div>
+                    <p className="reviewerName">Pamela Strydom</p>
+                </div>
+            </div>
         </div>
-        <p className="reviewerName">Pamela Strydom</p>
-    </div>
-</div>
-
-
-</div>
     );
 }
 

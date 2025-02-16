@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https: //fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-.finalRow{
+.final-page-body{
+    margin: 100px;
+    padding: 20px;
+}
+
+.finalRow {
     border: 2px solid var(--border-color);
     border-radius: 40px;
     max-width: 1100px;
@@ -12,7 +17,7 @@
     position: relative;
 }
 
-.finalP{
+.finalP {
     font-size: 40px;
     font-weight: 700;
 }
@@ -20,7 +25,7 @@
 .learnMoreBtn4 {
     margin: 20px 0;
     color: black;
-    background-color:#fae053;
+    background-color: #fae053;
     border: 2px solid var(--border-color);
     border-radius: 20px;
     padding: 15px 75px;
@@ -30,6 +35,21 @@
 
 .learnMoreBtn4:hover {
     background-color: #f4e58e;
+}
+
+@media screen and (max-width: 768px) {
+    .finalRow {
+        padding: 30px;
+        margin: 50px auto 20px;
+    }
+
+    .finalP {
+        font-size: 30px;
+    }
+
+    .learnMoreBtn4 {
+        padding: 12px 50px;
+    }
 }
 
 /*.finalPageLottie {

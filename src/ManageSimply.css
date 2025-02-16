@@ -23,7 +23,7 @@
     transition: background-color 0.3s ease-in-out;
 }
 
-.learnMoreBtn3:hover{
+.learnMoreBtn3:hover {
     background-color: #6a82f1;
 }
 
@@ -35,16 +35,13 @@
 
 .manageSimplyLottie {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     position: relative;
     margin-top: -200px;
     z-index: 2;
-    /* Ensures it appears above the review section */
     transform: translateX(-300px);
-    /* Moves Lottie slightly to the left */
 }
 
-/* Lottie Animation Size */
 .lottie-animation {
     max-width: 300px;
     height: auto;
@@ -52,7 +49,6 @@
     bottom: -20px;
 }
 
-/* Review Section */
 .review3 {
     color: white;
     background-color: var(--primary-color3);
@@ -60,7 +56,6 @@
     border-radius: 40px;
     max-width: 1100px;
     margin: -50px auto 40px;
-    /* Pulls it up closer to the lottie */
     padding: 30px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     text-align: left;
@@ -68,7 +63,6 @@
     z-index: 1;
 }
 
-/* Reviewer Name */
 .reviewerName {
     font-weight: bold;
     font-style: italic;
@@ -78,33 +72,120 @@
 .review-footer {
     display: flex;
     justify-content: space-between;
-    /* Push name to left, stars to right */
     align-items: center;
-    /* Keep them aligned properly */
     margin-top: 10px;
     width: 100%;
-    /* Ensures full width usage */
 }
 
 .stars {
     display: flex;
     gap: 5px;
-    /* Spacing between stars */
     align-items: center;
 }
 
 .star {
     font-size: 18px;
-    /* Ensures stars are golden */
 }
 
 .reviewIcon {
     margin-right: 5px;
-    /* Adds space between the icon and the stars */
 }
 
 .stars p {
     display: flex;
     align-items: center;
     margin: 0;
+}
+
+/* RESPONSIVE STYLES */
+
+/* For small screens */
+@media (max-width: 575px) {
+    .containerLeft .row.firstRow {
+        flex-direction: column;
+    }
+
+    .containerLeft .row.secondRow {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .manageSimplyLottie {
+        margin-top: 20px;
+        transform: none;
+        justify-content: center;
+    }
+
+    .lottie-animation {
+        max-width: 200px;
+        left: 0;
+    }
+
+    .review3 {
+        padding: 20px;
+    }
+
+    .review-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* For medium screens */
+@media (min-width: 576px) and (max-width: 991px) {
+    .containerLeft .row.firstRow {
+        flex-direction: row;
+    }
+
+    .containerLeft .row.secondRow {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .manageSimplyLottie {
+        margin-top: -150px;
+        transform: translateX(-200px);
+    }
+
+    .lottie-animation {
+        max-width: 250px;
+    }
+
+    .review3 {
+        padding: 25px;
+    }
+
+    .review-footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/* For large screens */
+@media (min-width: 992px) {
+    .containerLeft .row.firstRow {
+        flex-direction: row;
+    }
+
+    .containerLeft .row.secondRow {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .manageSimplyLottie {
+        margin-top: -200px;
+        transform: translateX(-300px);
+    }
+
+    .lottie-animation {
+        max-width: 300px;
+    }
+
+    .review3 {
+        padding: 30px;
+    }
+
+    .review-footer {
+        flex-direction: row;
+    }
 }

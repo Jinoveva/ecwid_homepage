@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https: //fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet');
 
 :root {
     --main-font: 'Archivo', sans-serif;
@@ -7,26 +7,101 @@
     --border-color: black;
 }
 
-.pageRow{
-    max-width: 1100px;
+.page-body{
+    margin: 100px;
 }
 
-.box{
+.pageRow {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.box {
     border: 2px solid var(--border-color);
     border-radius: 20px;
     margin: 10px 20px;
     padding: 30px;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     height: 100%;
     box-sizing: border-box;
+    flex-grow: 1;
+    align-items: center;
 }
 
-.googleIcon{
+.googleIcon {
     border: 1px solid var(--border-color);
     border-radius: 10px;
     background-color: #fae053;
     margin: 5px;
     padding: 10px;
+}
+
+h6 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Responsive Styles for Small Screens */
+@media (max-width: 768px) {
+    .pageRow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        /* Take up more space on smaller screens */
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    .googleIcon {
+        width: 40px;
+        /* Adjust icon size for smaller screens */
+        height: 40px;
+        padding: 8px;
+    }
+
+    h6 {
+        font-size: 18px;
+        /* Reduce heading font size */
+    }
+
+    p {
+        font-size: 14px;
+        /* Smaller paragraph text */
+    }
+}
+
+/* For Extra Small Screens (Phones) */
+@media (max-width: 480px) {
+    .box {
+        width: 100%;
+        /* Ensure box takes full width */
+        margin: 15px 0;
+        padding: 15px;
+    }
+
+    .googleIcon {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+
+    h6 {
+        font-size: 16px;
+        /* Further reduce heading size */
+    }
+
+    p {
+        font-size: 12px;
+        /* Smaller text for mobile */
+    }
 }

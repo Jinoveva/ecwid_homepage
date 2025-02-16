@@ -1,9 +1,23 @@
 .nav-wrapper {
     display: flex;
     align-items: center;
-    /* Aligns navbar and button vertically */
     justify-content: space-between;
-    /* Navbar on the left, button on the right */
     padding: 10px 20px;
-    /* Adjust padding as needed */
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+
+    /* For tablets and small laptops, adjust padding */
+    .nav-wrapper {
+        padding: 15px 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    /* For desktops, adjust padding further */
+    .nav-wrapper {
+        padding: 20px 40px;
+    }
 }

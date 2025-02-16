@@ -23,7 +23,7 @@ body {
     margin: 30px 30px 5px 0;
 }
 
-.pText{
+.pText {
     font-size: 16.3px;
 }
 
@@ -56,7 +56,7 @@ body {
     font-weight: 700;
 }
 
-.socials{
+.socials {
     font-size: 15px;
 }
 
@@ -67,18 +67,14 @@ body {
     position: relative;
     margin-top: -200px;
     z-index: 2;
-    /* Ensures it appears above the review section */
     transform: translateX(-300px);
-    /* Moves Lottie slightly to the left */
 }
 
-/* Lottie Animation Size */
 .lottie-animation {
     max-width: 300px;
     height: auto;
     position: relative;
     bottom: -20px;
-    /* Slightly lowers it onto the HR line */
 }
 
 /* Review Section */
@@ -88,7 +84,6 @@ body {
     border-radius: 40px;
     max-width: 1100px;
     margin: -50px auto 40px;
-    /* Pulls it up closer to the lottie */
     padding: 30px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     text-align: left;
@@ -96,11 +91,10 @@ body {
     z-index: 1;
 }
 
-.reviewText{
+.reviewText {
     font-size: 15px;
 }
 
-/* Reviewer Name */
 .reviewerName {
     font-weight: bold;
     font-style: italic;
@@ -110,33 +104,106 @@ body {
 .review-footer {
     display: flex;
     justify-content: space-between;
-    /* Push name to left, stars to right */
     align-items: center;
-    /* Keep them aligned properly */
     margin-top: 10px;
     width: 100%;
-    /* Ensures full width usage */
 }
 
 .stars {
     display: flex;
     gap: 5px;
-    /* Spacing between stars */
     align-items: center;
 }
 
 .star {
     font-size: 18px;
-    /* Ensures stars are golden */
 }
 
 .reviewIcon {
     margin-right: 5px;
-    /* Adds space between the icon and the stars */
 }
 
 .stars p {
     display: flex;
     align-items: center;
     margin: 0;
+}
+
+/* Responsive Media Queries */
+
+/* For small screens (mobile), stack elements vertically */
+@media (max-width: 576px) {
+    .containerLeft {
+        margin-left: 0;
+    }
+
+    .secondH1 {
+        font-size: 32px;
+    }
+
+    .pText {
+        font-size: 14px;
+    }
+
+    .learnMoreBtn {
+        padding: 10px 40px;
+    }
+
+    .sellAnywhereLottie {
+        transform: translateX(0);
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .review {
+        margin-top: 20px;
+    }
+}
+
+/* For medium screens (tablets), adjust layout for better alignment */
+@media (min-width: 576px) and (max-width: 1024px) {
+    .containerLeft {
+        margin-left: 0;
+    }
+
+    .secondH1 {
+        font-size: 38px;
+    }
+
+    .pText {
+        font-size: 15px;
+    }
+
+    .learnMoreBtn {
+        padding: 10px 60px;
+    }
+
+    .sellAnywhereLottie {
+        justify-content: center;
+        margin-top: -100px;
+    }
+
+    .review {
+        margin-top: -40px;
+    }
+}
+
+/* For large screens (desktop) */
+@media (min-width: 1024px) {
+    .secondH1 {
+        font-size: 48px;
+    }
+
+    .pText {
+        font-size: 16.3px;
+    }
+
+    .sellAnywhereLottie {
+        justify-content: right;
+        margin-top: -200px;
+    }
+
+    .review {
+        max-width: 1100px;
+    }
 }

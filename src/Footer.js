@@ -150,7 +150,8 @@ function Footer () {
 
                 <hr/>
 
-                <div className='bottomLeft'>
+               <div className='bottoms'>
+                 <div className='bottomLeft'>
                     <box-icon name='world' color='white'></box-icon>
                     <p>GLOBAL</p>
                 </div>
@@ -161,6 +162,7 @@ function Footer () {
                     <p>CCPA Notice</p>
                     <p>Copyright Policy</p>
                     <p className='copyright'>&copy; 2021 Ecwid</p>
+                </div>
                 </div>
         </div>
     );

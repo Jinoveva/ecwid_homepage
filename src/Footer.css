@@ -1,20 +1,17 @@
-.footer{
+.footer {
     color: white;
     background-color: black;
-    padding: 40px 10%;
+    padding: 30px 10%;
+    margin: 30px;
 }
 
-.brand-name2, .brand-slogan2{
+.brand-name2,
+.brand-slogan2 {
     color: white;
 }
 
 .footer-container {
     text-align: center;
-}
-
-.footer-logo img {
-    width: 150px;
-    margin-bottom: 30px;
 }
 
 .footer-columns {
@@ -55,41 +52,22 @@
     text-decoration: underline;
 }
 
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-    .footer-columns {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-column {
-        text-align: center;
-    }
-}
-
-.socialIcons{
+.socialIcons {
     display: flex;
-    justify-content: right;
+    justify-content: end;
     gap: 10px;
-    margin-right: 140px;
+    margin: 20px 0;
 }
 
 /* Footer container */
 .footer2 {
     display: flex;
     justify-content: space-between;
-    /* Puts search on left & downloads on right */
     align-items: center;
-    /* Aligns items vertically */
     padding: 20px 100px;
-    /* Adjust padding to position elements properly */
-    bottom: 0;
-    width: 100%;
     background-color: black;
-    /* Match the background */
 }
 
-/* Search bar styling */
 .search input {
     padding: 5px;
     border: 2px solid #939393;
@@ -99,14 +77,12 @@
     color: white;
 }
 
-/* Download section */
 .download {
     display: flex;
     gap: 20px;
-    /* Creates spacing between App Store & Google Play buttons */
+    margin: 20px -150px;
 }
 
-/* Styles for download buttons */
 .download1,
 .download2 {
     display: flex;
@@ -117,46 +93,68 @@
     padding: 5px 15px;
 }
 
-/* Text alignment inside buttons */
 .download-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-/* Small text */
 .logo {
     font-size: 10px;
-    margin: 0;
 }
 
-/* Large text */
 .logoText {
     font-size: 15px;
     font-weight: bold;
-    margin: 0;
 }
 
-/* Fix Google Play icon size */
 .fa-google-play {
     font-size: 20px;
 }
 
-.bottomLeft{
+.bottoms{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.bottomLeft {
+    display: flex;
     gap: 5px;
 }
 
-
-.bottomRight{
+.bottomRight {
     display: flex;
-    flex-direction: row;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 20px;
 }
 
-.copyright{
+.copyright {
     color: #939393;
+}
 
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .footer-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        text-align: center;
+    }
+
+    .footer2 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .download {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottomRight {
+        justify-content: center;
+    }
 }
